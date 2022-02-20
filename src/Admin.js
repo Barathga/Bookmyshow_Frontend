@@ -22,7 +22,7 @@ function Admin(){
   };
 
   const handleSubmit = async (value) => {
-    await axios.post('http://localhost:8000/add',{
+    await axios.post('https://bookmyshow-backend01.herokuapp.com/add',{
         value
   }
       
